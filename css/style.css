@@ -1,0 +1,35 @@
+
+
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)),url(../images/p.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 10vh;
+
+}
+p{
+color: blue;
+padding-top: 100px;
+}
+.navbar-nav {
+align-items: center;
+}
+#about{
+padding: 300px;
+background-image: url(../images/pin.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+.btn {
+    background-color:#4d0000;
+    color:white;
+    width: 200px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 160px;
+    border: none;
+    height: 30px;
+    padding-bottom: 30px;
+}
