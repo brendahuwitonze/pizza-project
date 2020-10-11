@@ -10,61 +10,149 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
+<div class="container">
+    <header>
 
-<body>
-    <div class="container">
-        <header>
-            
-            <div class="fixed-top">
-                <div class="collapse" id="navbarToggleExternalContent">
-                    <div class="bg-dark p-4">
-                        <h2 class="text-white h4">Varsity Pizza</h2>
-                        <span class="text-muted">you are most welcome to our pizza shop</span>
-                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#home">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://brendahuwitonze.github.io/portfolio-project/">online-order</a>
-                            </li>
-                    </div>
+        <div class="fixed-top">
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="bg-dark p-4">
+                    <h2 class="text-white h4">Varsity Pizza</h2>
+                    <span class="text-muted">you are most welcome to our pizza shop</span>
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                href="https://brendahuwitonze.github.io/portfolio-project/">online-order</a>
+                        </li>
                 </div>
-                <nav class="navbar navbar-dark bg-dark">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </nav>
             </div>
-        </header>
-   <section id="home">
-<div class="jumbotron">
-    <div class="conatiner-one">
-        <h1>WHO WE  ARE</h1>
-<img style="padding-top: 100px;margin-left:100px;" src="images/bacpizza.png" alt="">
-      <p>varsity pizza-shop  has been in pizza business for 25yaers . In these twenty years we have just been selling pizza wihtout delivering them to your destination but as for now we have started to do online selling where you can order you pizza that you want and it can easily reach on to you at your place.We do provide different types of pizzas according to size toppings and crusts.
-          we do have have a standarnd pizza which is well prepared by well experienced people,so there are no worries about what we provide . </p>
-     
-      <form action="">
-      <button type="button" class="btn btn-light"><a  href="https://brendahuwitonze.github.io/portfolio-project/"> for online-ordering</a>
-    </button>
+            <nav class="navbar navbar-dark bg-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+    <body>
+        
+    <div class="jumbotron">
+        <div class="conatiner-one">
+            <h1>WHO WE ARE</h1>
+            <!-- <img style="padding-top: 100px;margin-left:100px;" src="images/bacpizza.png" alt=""> -->
+            <p>varsity pizza-shop has been in pizza business for 25yaers . In these twenty years we have just been
+                selling pizza wihtout delivering them to your destination but as for now we have started to do online
+                selling where you can order you pizza that you want and it can easily reach on to you at your place.We
+                do provide different types of pizzas according to size toppings and crusts.
+                we do have have a standarnd pizza which is well prepared by well experienced people,so there are no
+                worries about what we provide . </p>
+            <form action="">
+                <button type="button" class="btn btn-light"><a
+                        href="https://brendahuwitonze.github.io/portfolio-project/"> for online-ordering</a>
+                </button>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+<div class="container">
+    <h2 class="port">some pizza that are available</h2>
+    <div class="row row-cols-1 row-cols-md-4">
+        <div class="col mb-4">
+            <div class="card h-100 dore">
+                <div class="epi"></div>
+                 <img src="images/crs.png" class="card-img-top" alt="...">
+                <div class="lil">
+                    <p>Gluten-pizza</p>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card h-100 josh">
+                <div class="mug"></div>
+                <img src="images/ppp.png" class="card-img-top" alt="...">
+                <div class="kim">
+                    <p>Marinara-pizza</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card h-100 sharo">
+                <div class="rec"></div>
+                <img src="images/pin.png" class="card-img-top" alt="...">
+                <div class="bord">
+                    <p>crispy-pizza</p>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card h-100 bra">
+                <div class="kayo"></div>
+                <img src="images/bbd.png" class="card-img-top" alt="...">
+                <div class="border">
+                    <p>stuffed-pizza</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <form action="">
+                <label for="select">choose your pizza with crust</label>
+                <select class=" custom-select custom-select-md mb-1 name">
+                    <option value="">stuffed-pizza</option>
+                    <option value="">crispy-pizza</option>
+                    <option value="">Marinara-pizza</option>
+                    <option value="">Gluten-pizza</option>
+                </select>
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <form action="">
+                <label for="select">choose size</label>
+                <select class=" custom-select custom-select-md mb- name">
+                    <option value="">large-size</option>
+                    <option value="">midium-size</option>
+                    <option value="">small-size</option>
+                </select>
+            </form>
+        </div>
+    </div><br>
     </form>
-  </div>
-  </div>
-  </section>
-   </div>
-</body>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-    crossorigin="anonymous"></script>
-<script src="js/script.js"></script>
-<script src="js/jquery-3.5.1.js"></script>
+    <label for="Toppings"> Toppings </label><br>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+        <label class="form-check-label" for="inlineCheckbox1">mushrooms</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+        <label class="form-check-label" for="inlineCheckbox2">chips</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+        <label class="form-check-label" for="inlineCheckbox3">salad</label>
+    </div><br>
+    <input type="submit" value="submit">
+    </form>
+    
+    </body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jquery-3.5.1.js"></script>
 
 </html>
