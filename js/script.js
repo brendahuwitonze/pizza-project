@@ -110,3 +110,11 @@ varpriceTotal=pricesize+pricecrust+totalToppings
 return priceTotal
 
 }
+$("form").submit(event){
+    event.preventDefault();
+    var size=$("select#size").val()
+    var crust=$("select#crust").val()
+    var topps=[]
+    
+}
+
