@@ -46,7 +46,7 @@ $(document).ready(function () {
     })
 });
 
-
+// business logic
 function texas(){
    var address=prompt("Enter you location") ;
 if (address){
@@ -122,7 +122,7 @@ Pizza.prototype.myPizza = function () {
     return priceTotal;
   
 }
-
+// user interface
 
 $("form").submit(function (event) {
     event.preventDefault();
