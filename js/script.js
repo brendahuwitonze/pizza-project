@@ -47,14 +47,14 @@ $(document).ready(function () {
 });
 
 // business logic
-function texas(){
-   var address=prompt("Enter you location") ;
-if (address){
-    alert("you order will be deliverd at " + address)
-}
-else{
-    alert("enter your address")
-}
+function texas() {
+    var address = prompt("Enter you location");
+    if (address) {
+        alert("you order will be deliverd at " + address)
+    }
+    else {
+        alert("enter your address")
+    }
 }
 
 function Pizza(crust, size, toppings = []) {
@@ -102,7 +102,7 @@ Pizza.prototype.myPizza = function () {
         if (this.toppings[y] == "mushrooms") {
             priceToppings.push(priceMashrooms);
         }
-       
+
 
     }
     for (y = 0; y < this.toppings.length; y++) {
@@ -120,7 +120,7 @@ Pizza.prototype.myPizza = function () {
 
     var priceTotal = pricesize + pricecrust + totalToppings;
     return priceTotal;
-  
+
 }
 // user interface
 
@@ -135,7 +135,7 @@ $("form").submit(function (event) {
     }).get();
     var newpiz = new Pizza(size, crust, tops);
     $("#total").text("This is the total amout that you have ordered for the pizza " + newpiz.myPizza() + " frw");
-    $("#display").text("Due to the number of pizza ordered  you will pay "+ newpiz.myPizza() * number + " frw");
+    $("#display").text("Due to the number of pizza ordered  you will pay " + newpiz.myPizza() * number + " frw");
     $("form").trigger("reset");
 });
 

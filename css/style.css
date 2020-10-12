@@ -1,40 +1,47 @@
-
-
-header{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url(../images/p.jpeg);
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/p.jpeg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     height: 100vh;
 }
-.words{
+
+.words {
     text-align: center;
-    padding: 50px; 
+    padding: 50px;
     margin: 50px;
-    
 }
 
- h1{
+.words h1 {
+    padding-bottom: 20px;
+}
+
+p {
+    font-family: 'Peddana', serif;
+    font-size: 30px;
+}
+
+h1 {
     font-family: 'Sansita Swashed', cursive;
 }
-.port{
+
+.port {
     text-align: center;
     padding-bottom: 20px;
 }
 
-
-
-footer{
-    background-color:black;
-    
+footer {
+    background-color: black;
 }
-.brenda{
-margin-left: 300px;
 
+.brenda {
+    margin-left: 300px;
 }
-#topps{
+
+#topps {
     text-align: center;
 }
+
 .epi {
     background: rgba(0, 0, 0, 0.7);
     position: absolute;
@@ -53,7 +60,6 @@ margin-left: 300px;
     top: 50%;
     left: 50%;
     display: none;
-   
     padding: 20px 20px 20px;
 }
 
@@ -131,5 +137,4 @@ margin-left: 300px;
     top: 50%;
     left: 50%;
     display: none;
-  
 }
