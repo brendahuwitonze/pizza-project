@@ -1,4 +1,4 @@
-
+// business logic
 $(document).ready(function () {
     $('.dore').mouseover(function () {
         $('.epi').show();
