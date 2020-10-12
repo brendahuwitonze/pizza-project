@@ -21,9 +21,9 @@ VARSITY-PIZZA is a pizza shop that provides diffrent types of pizza that have cr
 * CASCADING-STYLE-SHEET(CSS)
 * MARKDOWN
 ## project-image
-<!-- ![DELANI-STUDIO](./image/Delani.png)
+<!-- ![varsity](./image/Delani.png)
   ## here is the link 
-[Delani]( https://brendahuwitonze.github.io/Brendah-studio/.) -->
+[varsity]( https://brendahuwitonze.github.io/Brendah-studio/.) -->
 
 ## License
 MIT License
