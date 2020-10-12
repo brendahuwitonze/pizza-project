@@ -48,8 +48,15 @@
 
 
 function texas(){
-   var address=prompt("") 
+   var address=prompt("Enter you location") ;
+if (address){
+    alert("you order will be deliverd at " + address)
 }
+else{
+    alert("enter your address")
+}
+}
+
 function Pizza(crust, size, toppings = []) {
     this.crust = crust;
     this.size = size;
@@ -57,7 +64,7 @@ function Pizza(crust, size, toppings = []) {
 }
 Pizza.prototype.myPizza = function () {
     var pricesize;
-    var pricecruster
+    var pricecrust
     if (this.size == "small") {
         pricesize = 500;
         debugger;
