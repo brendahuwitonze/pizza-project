@@ -136,7 +136,7 @@ $("form").submit(function (event) {
     var newpiz = new Pizza(size, crust, tops);
     $("#total").text("This is the total amout that you have ordered for the pizza " + newpiz.myPizza() + " frw");
     $("#display").text("Due to the number of pizza ordered  you will pay "+ newpiz.myPizza() * number + " frw");
-  
+    $("form").trigger("reset");
 });
 
 
