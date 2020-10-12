@@ -31,7 +31,9 @@ h1 {
 }
 
 footer {
-    background-color: black;
+    border: rgba(235, 185, 19, 0.349) 1px solid;
+    background-color: rgba(235, 185, 19, 0.349);
+    
 }
 
 .brenda {
