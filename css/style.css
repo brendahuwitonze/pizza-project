@@ -10,13 +10,20 @@ body{
     height: 10vh;
 
 }
- #home p, h1{
+  p, h1{
 text-align: center;
 padding-top: 100px;
+color: whitesmoke;
 font-size: 30px;
 }
 .navbar-nav {
 align-items: center;
+}
+.port{
+    text-align: center;
+}
+.impiz{
+    margin-left: 300px;
 }
 
 .btn {
@@ -140,3 +147,6 @@ align-items: center;
     
 }
 
+.form-check-input{
+font-size: 50px;
+}

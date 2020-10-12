@@ -48,10 +48,10 @@ $(document).ready(function () {
 
 
 
-function Pizza(){
-    this.cruster=cruster
+function Pizza(crust,size,toppings=[]){
+    this.crust=crust
     this.size=size
-    this.toppings=[]
+    this.toppings=toppings
 }
 Pizza.prototype.myPizza=function(){
  var pricesize;
@@ -63,27 +63,27 @@ else if(this.size=="madium"){
     pricesize=1000;
 }
 else {
-    pricesize=20000;
+    pricesize=2000;
 }
-if(crusty=="cripys"){
-    priceCruster=450;
+if(crust=="cripys"){
+    pricecrust=450;
 
 }
 if(crust=="glury"){
     pricecruster=5000
 }
 else{
-    priceCruster=200
+    pricecruster=200
 }
 
 var priceToppings=[]
 var priceMashrooms=290;
-var priceonoins=560;
-var priceslade=430;
+var priceonions=560;
+var priceolives=430;
 var y;
 for(y=0;y<this.toppings.length;y++){
     if (this.toppings[y]=="onions"){
-  priceToppings.push(priceonoins)
+  priceToppings.push(priceonions)
 
     }
 
@@ -95,26 +95,21 @@ for (y=0;y<this.toppings.length;y++){
    
 }
 for(y=0;y<this.toppings.length;y++){
-    if(this.toppings[y]=="slad"){
-        priceToppings.push(priceslad);
+    if(this.toppings[y]=="olives"){
+        priceToppings.push(priceolives);
     }
 }
 var totalToppings=0
 var i=0
-while(i<totalToppings.length){
-    totalToppings+=totalToppings[i];
+while(i<priceToppings.length){
+    totalToppings+=priceToppings[i];
     i++;
 }
 
-varpriceTotal=pricesize+pricecrust+totalToppings
+var priceTotal=pricesize+pricecrust+totalToppings
 return priceTotal
 
 }
-$("form").submit(event){
-    event.preventDefault();
-    var size=$("select#size").val()
-    var crust=$("select#crust").val()
-    var topps=[]
-    
-}
+
+
 
