@@ -102,7 +102,7 @@ Pizza.prototype.myPizza = function () {
         if (this.toppings[y] == "mushrooms") {
             priceToppings.push(priceMashrooms);
         }
-        console.log(priceMashrooms + " " + "helo");
+       
 
     }
     for (y = 0; y < this.toppings.length; y++) {
