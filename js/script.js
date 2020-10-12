@@ -134,8 +134,8 @@ $("form").submit(function (event) {
         return $(this).val();
     }).get();
     var newpiz = new Pizza(size, crust, tops);
-    $("#total").text(newpiz.myPizza());
-    $("#display").text(newpiz.myPizza() * number);
+    $("#total").text("This is the total amout that you have " + newpiz.myPizza());
+    $("#display").text("Due to the number of pizza that you paid you will have to pay this amout "+ newpiz.myPizza() * number);
   
 });
 
