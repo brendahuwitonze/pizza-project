@@ -23,7 +23,7 @@ VARSITY-PIZZA is a pizza shop that provides diffrent types of pizza that have cr
 ## project-image
  ![varsity](./images/img.png)
   ## here is the link 
-[varsity]( https://brendahuwitonze.github.io/Brendah-studio/.) -->
+[varsity]( .) -->
 
 ## License
 MIT License
