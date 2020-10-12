@@ -1,152 +1,25 @@
 
 
-body{
+header{
     background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url(../images/p.jpeg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    opacity: 5;
-    height: 10vh;
-
+    height: 100vh;
 }
-  p, h1{
-text-align: center;
-padding-top: 100px;
-color: whitesmoke;
-font-size: 30px;
-}
-.navbar-nav {
-align-items: center;
+.words{
+    text-align: center;
+    padding: 50px; 
+    margin: 50px;
 }
 .port{
     text-align: center;
+    padding-bottom: 20px;
 }
-.impiz{
-    margin-left: 300px;
-}
+footer{
 
-.btn {
-    background-color:#4d0000;
-    color:white;
-    width: 200px;
-    border-radius: 20px;
-    text-align: center;
-    margin-left: 160px;
-    border: none;
-    height: 30px;
-    padding-bottom: 30px;
+}
+footer{
+    background-color: green;
     
-}
-.jumbotron{
-   background: transparent;
-}
-
-.epi {
-    background: rgba(0, 0, 0, 0.7);
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    opacity: 1;
-    display: none;
-}
-
-.lil {
-    position: absolute;
-    opacity: 1;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-    display: none;
-   
-    padding: 20px 20px 20px;
-}
-
-.lil p {
-    color: white;
-    font-size: 45px;
-    font-family: 'Peddana', serif;
-}
-
-.mug {
-    background: rgba(0, 0, 0, 0.7);
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    opacity: 1;
-    display: none;
-}
-
-.kim {
-    position: absolute;
-    opacity: 1;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-    display: none;
-    padding: 20px 20px 20px;
-}
-
-.kim p {
-    color: white;
-    font-size: 45px;
-    font-family: 'Peddana', serif;
-}
-
-.rec {
-    background: rgba(0, 0, 0, 0.7);
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    opacity: 1;
-    display: none;
-}
-
-.bord {
-    position: absolute;
-    opacity: 1;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-    display: none;
-    padding: 20px 20px 20px;
-}
-
-.bord p {
-    color: white;
-    font-size: 45px;
-    font-family: 'Peddana', serif;
-}
-
-.kayo {
-    background: rgba(0, 0, 0, 0.7);
-    position: absolute;
-    display: none;
-}
-
-.border {
-    position: absolute;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-    display: none;
-  
-}
-
-.border p {
-    color: white;
-    font-size: 45px;
-    
-}
-
-.form-check-input{
-font-size: 50px;
 }
