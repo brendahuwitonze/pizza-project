@@ -31,3 +31,101 @@ margin-left: 300px;
 #topps{
     text-align: center;
 }
+.epi {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    display: none;
+}
+
+.lil {
+    position: absolute;
+    opacity: 1;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: none;
+   
+    padding: 20px 20px 20px;
+}
+
+.lil p {
+    color: white;
+    font-size: 45px;
+    font-family: 'Peddana', serif;
+}
+
+.mug {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    display: none;
+}
+
+.kim {
+    position: absolute;
+    opacity: 1;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: none;
+    padding: 20px 20px 20px;
+}
+
+.kim p {
+    color: white;
+    font-size: 45px;
+    font-family: 'Peddana', serif;
+}
+
+.rec {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    display: none;
+}
+
+.bord {
+    position: absolute;
+    opacity: 1;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: none;
+    padding: 20px 20px 20px;
+}
+
+.bord p {
+    color: white;
+    font-size: 45px;
+    font-family: 'Peddana', serif;
+}
+
+.kayo {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    display: none;
+}
+
+.border {
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: none;
+  
+}

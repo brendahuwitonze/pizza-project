@@ -1,50 +1,50 @@
 
-// $(document).ready(function () {
-//     $('.dore').mouseover(function () {
-//         $('.epi').show();
-//         $('.lil').show();
-//     })
+$(document).ready(function () {
+    $('.dore').mouseover(function () {
+        $('.epi').show();
+        $('.lil').show();
+    })
 
-//     $('.dore').mouseout(function () {
-//         $('.epi').hide();
-//         $('.lil').hide();
-//     })
-// });
+    $('.dore').mouseout(function () {
+        $('.epi').hide();
+        $('.lil').hide();
+    })
+});
 
-// $(document).ready(function () {
-//     $('.josh').mouseover(function () {
-//         $('.mug').show();
-//         $('.kim').show();
-//     })
+$(document).ready(function () {
+    $('.josh').mouseover(function () {
+        $('.mug').show();
+        $('.kim').show();
+    })
 
-//     $('.josh').mouseout(function () {
-//         $('.mug').hide();
-//         $('.kim').hide();
-//     })
-// });
+    $('.josh').mouseout(function () {
+        $('.mug').hide();
+        $('.kim').hide();
+    })
+});
 
-// $(document).ready(function () {
-//     $('.sharo').mouseover(function () {
-//         $('.rec').show();
-//         $('.bord').show();
-//     })
+$(document).ready(function () {
+    $('.sharo').mouseover(function () {
+        $('.rec').show();
+        $('.bord').show();
+    })
 
-//     $('.sharo').mouseout(function () {
-//         $('.rec').hide();
-//         $('.bord').hide();
-//     })
-// });
-// $(document).ready(function () {
-//     $('.bra').mouseover(function () {
-//         $('.kayo').show();
-//         $('.border').show();
-//     })
+    $('.sharo').mouseout(function () {
+        $('.rec').hide();
+        $('.bord').hide();
+    })
+});
+$(document).ready(function () {
+    $('.bra').mouseover(function () {
+        $('.kayo').show();
+        $('.border').show();
+    })
 
-//     $('.bra').mouseout(function () {
-//         $('.kayo').hide();
-//         $('.border').hide();
-//     })
-// });
+    $('.bra').mouseout(function () {
+        $('.kayo').hide();
+        $('.border').hide();
+    })
+});
 
 
 function texas(){
